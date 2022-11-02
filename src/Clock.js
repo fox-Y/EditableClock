@@ -90,7 +90,7 @@ class Clock extends Component {
 
     render() {
         return (
-            <div className = "Clock">
+            <div style={{borderStyle : "solid", borderColor : "black", borderWidth : "3px", width : "200px", height : "100px", position : "relative", left : "800px", top : "400px"}}>
                 <p>London Clock</p>
 
                 <input style={{width : "20px"}} value={this.state.hour} onChange={evt => this.updateHour(evt)}></input>
